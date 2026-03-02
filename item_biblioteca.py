@@ -7,12 +7,17 @@ class Item_biblioteca:
 
     
 def exibir_detalhes(self):
-    if self.__disponivel:
+    if self.__disponivel == False:
+        print("O objeto não está disponível para emprestimo.")
+
 
 
 def emprestar(self):
+    if self.__emprestar == False:
+        print("O objeto não está disponível.")
+        
 
     
 def devolver(self):
-    
+
     
